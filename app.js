@@ -27,26 +27,3 @@ function CalculateStatistics() {
 
 
 console.log(CalculateStatistics());
-
-
-// function CalculateStatistics1() {
-//   let cylinder = [];
-//   let loopTime = 12;
-  
-//   for(let i = 0; i < loopTime; i++){
-//     let dice = rollDie();
-//     cylinder.push(dice);
-//   }
-
-//   let item = [...new Set(cylinder)];
-
-//   let result = "";
-//   item.forEach(el => {
-//     const numItems = cylinder.filter(val => val === el);
-//     const per = (numItems.length * 100 / loopTime).toFixed(1);
-//     result = `${per}% ` 
-//   })
-//   return result;
-// }
-
-
